@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="028553bcbe224fca85ca96246feb6adf" Name="Diagram1">
+        <EntityTypeShape EntityType="WebbshopModel.sysdiagram" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebbshopModel.tblBrand" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebbshopModel.tblCategory" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebbshopModel.tblCity" Width="1.5" PointX="0.75" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebbshopModel.tblColor" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebbshopModel.tblCustomerGroup" Width="1.5" PointX="1.5" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebbshopModel.tblOrderDetail" Width="1.5" PointX="5.25" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebbshopModel.tblOrderHead" Width="1.5" PointX="3" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebbshopModel.tblPicture" Width="1.5" PointX="0.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebbshopModel.tblProduct" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebbshopModel.tblSize" Width="1.5" PointX="0.75" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebbshopModel.tblUser" Width="1.5" PointX="0.75" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebbshopModel.tblZipcode" Width="1.5" PointX="1.5" PointY="24.875" IsExpanded="true" />
+        <AssociationConnector Association="WebbshopModel.FK_tblProduct_tblBrand" ManuallyRouted="false" />
+        <AssociationConnector Association="WebbshopModel.FK_tblProduct_tblCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="WebbshopModel.FK_tblCustomer_tblCity" ManuallyRouted="false" />
+        <AssociationConnector Association="WebbshopModel.FK_tblOrderHead_tblCity" ManuallyRouted="false" />
+        <AssociationConnector Association="WebbshopModel.FK_tblProduct_tblColor" ManuallyRouted="false" />
+        <AssociationConnector Association="WebbshopModel.FK_tblCustomer_tblCustomerGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="WebbshopModel.FK_tblOrderDetails_tblOrderHead" ManuallyRouted="false" />
+        <AssociationConnector Association="WebbshopModel.FK_tblOrderDetails_tblProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="WebbshopModel.FK_tblOrderHead_tblUser" ManuallyRouted="false" />
+        <AssociationConnector Association="WebbshopModel.FK_tblOrderHead_tblZipcode" ManuallyRouted="false" />
+        <AssociationConnector Association="WebbshopModel.FK_tblProduct_tblPicture" ManuallyRouted="false" />
+        <AssociationConnector Association="WebbshopModel.FK_tblProduct_tblSize" ManuallyRouted="false" />
+        <AssociationConnector Association="WebbshopModel.FK_tblCustomer_tblZipcode" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
